@@ -1,0 +1,241 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+MonitoresUCA
+</name>
+</assembly>
+<members>
+<member name="T:MonitoresUCA.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:MonitoresUCA.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:MonitoresUCA.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:MonitoresUCA.DBMonitoresUcaDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:MonitoresUCA.DBMonitoresUcaDataSet.CiudadDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MonitoresUCA.DBMonitoresUcaDataSet.CiudadRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MonitoresUCA.DBMonitoresUcaDataSet.CiudadRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MonitoresUCA.DBMonitoresUcaDataSetTableAdapters.CiudadTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MonitoresUCA.DBMonitoresUcaDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:MonitoresUCA.DBMonitoresUcaDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(MonitoresUCA.DBMonitoresUcaDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:MonitoresUCA.DBMonitoresUcaDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(MonitoresUCA.DBMonitoresUcaDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:MonitoresUCA.DBMonitoresUcaDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(MonitoresUCA.DBMonitoresUcaDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:MonitoresUCA.DBMonitoresUcaDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:MonitoresUCA.DBMonitoresUcaDataSetTableAdapters.TableAdapterManager.UpdateAll(MonitoresUCA.DBMonitoresUcaDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:MonitoresUCA.DBMonitoresUcaDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:MonitoresUCA.DBMonitoresUcaDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:MonitoresUCA.dsCiudades">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:MonitoresUCA.dsCiudades.CiudadDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MonitoresUCA.dsCiudades.CiudadRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MonitoresUCA.dsCiudades.CiudadRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MonitoresUCA.dsCiudadesTableAdapters.CiudadTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MonitoresUCA.dsCiudadesTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:MonitoresUCA.dsCiudadesTableAdapters.TableAdapterManager.UpdateUpdatedRows(MonitoresUCA.dsCiudades,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:MonitoresUCA.dsCiudadesTableAdapters.TableAdapterManager.UpdateInsertedRows(MonitoresUCA.dsCiudades,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:MonitoresUCA.dsCiudadesTableAdapters.TableAdapterManager.UpdateDeletedRows(MonitoresUCA.dsCiudades,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:MonitoresUCA.dsCiudadesTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:MonitoresUCA.dsCiudadesTableAdapters.TableAdapterManager.UpdateAll(MonitoresUCA.dsCiudades)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:MonitoresUCA.dsCiudadesTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:MonitoresUCA.dsCiudadesTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:MonitoresUCA.dsRegistros">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:MonitoresUCA.dsRegistros.CiudadDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MonitoresUCA.dsRegistros.MonitoresDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MonitoresUCA.dsRegistros.CiudadRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MonitoresUCA.dsRegistros.MonitoresRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MonitoresUCA.dsRegistros.CiudadRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MonitoresUCA.dsRegistros.MonitoresRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MonitoresUCA.dsRegistrosTableAdapters.CiudadTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MonitoresUCA.dsRegistrosTableAdapters.MonitoresTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MonitoresUCA.dsRegistrosTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:MonitoresUCA.dsRegistrosTableAdapters.TableAdapterManager.UpdateUpdatedRows(MonitoresUCA.dsRegistros,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:MonitoresUCA.dsRegistrosTableAdapters.TableAdapterManager.UpdateInsertedRows(MonitoresUCA.dsRegistros,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:MonitoresUCA.dsRegistrosTableAdapters.TableAdapterManager.UpdateDeletedRows(MonitoresUCA.dsRegistros,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:MonitoresUCA.dsRegistrosTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:MonitoresUCA.dsRegistrosTableAdapters.TableAdapterManager.UpdateAll(MonitoresUCA.dsRegistros)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:MonitoresUCA.dsRegistrosTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:MonitoresUCA.dsRegistrosTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
